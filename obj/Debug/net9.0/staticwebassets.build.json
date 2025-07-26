@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KJjPoOgoeCgLEdbT+dXsl/UwNhEjuRhDHo75rZ43ElM=",
+  "Hash": "Jm7ExVIvs6iyP/fxajsToFXkJ/S+fPL4r2rSywZZEzo=",
   "Source": "SEJA_WepApp",
   "BasePath": "_content/SEJA_WepApp",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-tyzou0cwte.gz",
+      "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz",
       "SourceId": "SEJA_WepApp",
       "SourceType": "Computed",
       "ContentRoot": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/SEJA_WepApp",
-      "RelativePath": "SEJA_WepApp#[.{fingerprint=tyzou0cwte}]?.styles.css.gz",
+      "RelativePath": "SEJA_WepApp#[.{fingerprint=yfjnt33hxw}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/bundle/SEJA_WepApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eiyrmf68oo",
-      "Integrity": "ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=",
+      "Fingerprint": "r31ii2bfn1",
+      "Integrity": "6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/bundle/SEJA_WepApp.styles.css"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-tyzou0cwte.gz",
+      "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz",
       "SourceId": "SEJA_WepApp",
       "SourceType": "Computed",
       "ContentRoot": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/SEJA_WepApp",
-      "RelativePath": "SEJA_WepApp#[.{fingerprint=tyzou0cwte}]!.bundle.scp.css.gz",
+      "RelativePath": "SEJA_WepApp#[.{fingerprint=yfjnt33hxw}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eiyrmf68oo",
-      "Integrity": "ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=",
+      "Fingerprint": "r31ii2bfn1",
+      "Integrity": "6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css"
@@ -246,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz",
+      "SourceId": "SEJA_WepApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/SEJA_WepApp",
+      "RelativePath": "img/login#[.{fingerprint=vw1slop4mf}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/login.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rc7gjtxie3",
+      "Integrity": "xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/login.svg"
     },
     {
       "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6x6fr7r5a0-lzl9nlhx6b.gz",
@@ -899,6 +920,27 @@
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
+      "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz",
+      "SourceId": "SEJA_WepApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/SEJA_WepApp",
+      "RelativePath": "css/index#[.{fingerprint=ggu9x5fmo9}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "36chj3x7ze",
+      "Integrity": "2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/index.css"
+    },
+    {
       "Identity": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lgqls522sg-kbrnm935zg.gz",
       "SourceId": "SEJA_WepApp",
       "SourceType": "Discovered",
@@ -1375,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "tyzou0cwte",
-      "Integrity": "FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=",
+      "Fingerprint": "yfjnt33hxw",
+      "Integrity": "0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/bundle/SEJA_WepApp.styles.css"
@@ -1396,11 +1438,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "tyzou0cwte",
-      "Integrity": "FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=",
+      "Fingerprint": "yfjnt33hxw",
+      "Integrity": "0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/index.css",
+      "SourceId": "SEJA_WepApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/silas/Projetos/SEJA_WepApp/wwwroot/",
+      "BasePath": "_content/SEJA_WepApp",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ggu9x5fmo9",
+      "Integrity": "cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
     },
     {
       "Identity": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/site.css",
@@ -1443,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/login.svg",
+      "SourceId": "SEJA_WepApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/silas/Projetos/SEJA_WepApp/wwwroot/",
+      "BasePath": "_content/SEJA_WepApp",
+      "RelativePath": "img/login#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vw1slop4mf",
+      "Integrity": "rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/login.svg"
     },
     {
       "Identity": "/home/silas/Projetos/SEJA_WepApp/wwwroot/js/site.js",
@@ -2728,6 +2812,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/index.css",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.014705882353"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 19:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 19:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 19:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.ggu9x5fmo9.css",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.014705882353"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 19:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ggu9x5fmo9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.ggu9x5fmo9.css",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 19:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ggu9x5fmo9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGfh7dyFYWhaoFQLf8Dva2HHimls1cdi0YK3xdlTQq8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.ggu9x5fmo9.css.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 19:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ggu9x5fmo9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2wbTs7M4NR09zmfK8ja8qgVQn51Xmg2MbRviiWj3QXI="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/eo76ekb7tv-lugek5hnai.gz",
       "Selectors": [
@@ -2752,7 +3134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 23:24:42 GMT"
+          "Value": "Thu, 24 Jul 2025 13:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2805,7 +3187,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 23:24:42 GMT"
+          "Value": "Thu, 24 Jul 2025 13:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2842,7 +3224,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 23:24:42 GMT"
+          "Value": "Thu, 24 Jul 2025 13:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2889,7 +3271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 23:24:42 GMT"
+          "Value": "Thu, 24 Jul 2025 13:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2950,7 +3332,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 23:24:42 GMT"
+          "Value": "Thu, 24 Jul 2025 13:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2995,7 +3377,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 23:24:42 GMT"
+          "Value": "Thu, 24 Jul 2025 13:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3320,6 +3702,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk="
+        }
+      ]
+    },
+    {
+      "Route": "img/login.svg",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003225806452"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 22:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE="
+        }
+      ]
+    },
+    {
+      "Route": "img/login.svg",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/login.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 22:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE="
+        }
+      ]
+    },
+    {
+      "Route": "img/login.svg.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 22:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo="
+        }
+      ]
+    },
+    {
+      "Route": "img/login.vw1slop4mf.svg",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003225806452"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 22:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw1slop4mf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/login.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE="
+        }
+      ]
+    },
+    {
+      "Route": "img/login.vw1slop4mf.svg",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/login.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 22:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw1slop4mf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/login.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rx0xwsDWduJ5b/O933TZD+K3/9xryydnv472mG1t4VE="
+        }
+      ]
+    },
+    {
+      "Route": "img/login.vw1slop4mf.svg.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 22:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw1slop4mf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/login.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xV+NDwCV1AH9b18SQDKOVvaRzEHX75Iq+9sPnt98fIo="
         }
       ]
     },
@@ -21287,12 +21967,12 @@
     },
     {
       "Route": "SEJA_WepApp.bundle.scp.css",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-tyzou0cwte.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001618122977"
+          "Quality": "0.001508295626"
         }
       ],
       "ResponseHeaders": [
@@ -21302,15 +21982,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21330,13 +22010,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "W/\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
@@ -21351,7 +22031,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1303"
+          "Value": "1464"
         },
         {
           "Name": "Content-Type",
@@ -21359,11 +22039,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21373,13 +22053,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
     {
       "Route": "SEJA_WepApp.bundle.scp.css.gz",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-tyzou0cwte.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21388,7 +22068,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "Content-Type",
@@ -21396,11 +22076,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21418,18 +22098,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk="
+          "Value": "sha256-6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE="
         }
       ]
     },
     {
       "Route": "SEJA_WepApp.styles.css",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-tyzou0cwte.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001618122977"
+          "Quality": "0.001508295626"
         }
       ],
       "ResponseHeaders": [
@@ -21439,15 +22119,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21467,13 +22147,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "W/\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
@@ -21488,7 +22168,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1303"
+          "Value": "1464"
         },
         {
           "Name": "Content-Type",
@@ -21496,11 +22176,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21510,13 +22190,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
     {
       "Route": "SEJA_WepApp.styles.css.gz",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-tyzou0cwte.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21525,7 +22205,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "Content-Type",
@@ -21533,11 +22213,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21555,18 +22235,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk="
+          "Value": "sha256-6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE="
         }
       ]
     },
     {
-      "Route": "SEJA_WepApp.tyzou0cwte.bundle.scp.css",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-tyzou0cwte.gz",
+      "Route": "SEJA_WepApp.yfjnt33hxw.bundle.scp.css",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001618122977"
+          "Quality": "0.001508295626"
         }
       ],
       "ResponseHeaders": [
@@ -21576,15 +22256,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21604,13 +22284,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "W/\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tyzou0cwte"
+          "Value": "yfjnt33hxw"
         },
         {
           "Name": "label",
@@ -21618,12 +22298,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
     {
-      "Route": "SEJA_WepApp.tyzou0cwte.bundle.scp.css",
+      "Route": "SEJA_WepApp.yfjnt33hxw.bundle.scp.css",
       "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21633,7 +22313,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1303"
+          "Value": "1464"
         },
         {
           "Name": "Content-Type",
@@ -21641,11 +22321,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21655,7 +22335,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tyzou0cwte"
+          "Value": "yfjnt33hxw"
         },
         {
           "Name": "label",
@@ -21663,13 +22343,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
     {
-      "Route": "SEJA_WepApp.tyzou0cwte.bundle.scp.css.gz",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-tyzou0cwte.gz",
+      "Route": "SEJA_WepApp.yfjnt33hxw.bundle.scp.css.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21678,7 +22358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "Content-Type",
@@ -21686,11 +22366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21708,7 +22388,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tyzou0cwte"
+          "Value": "yfjnt33hxw"
         },
         {
           "Name": "label",
@@ -21716,18 +22396,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk="
+          "Value": "sha256-6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE="
         }
       ]
     },
     {
-      "Route": "SEJA_WepApp.tyzou0cwte.styles.css",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-tyzou0cwte.gz",
+      "Route": "SEJA_WepApp.yfjnt33hxw.styles.css",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001618122977"
+          "Quality": "0.001508295626"
         }
       ],
       "ResponseHeaders": [
@@ -21737,15 +22417,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21765,13 +22445,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "W/\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tyzou0cwte"
+          "Value": "yfjnt33hxw"
         },
         {
           "Name": "label",
@@ -21779,12 +22459,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
     {
-      "Route": "SEJA_WepApp.tyzou0cwte.styles.css",
+      "Route": "SEJA_WepApp.yfjnt33hxw.styles.css",
       "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/bundle/SEJA_WepApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21794,7 +22474,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1303"
+          "Value": "1464"
         },
         {
           "Name": "Content-Type",
@@ -21802,11 +22482,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0=\""
+          "Value": "\"0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21816,7 +22496,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tyzou0cwte"
+          "Value": "yfjnt33hxw"
         },
         {
           "Name": "label",
@@ -21824,13 +22504,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FWo0e2T6TjtorjcEKBTaKWsnm+kEnDNjMf6yzIHWca0="
+          "Value": "sha256-0qQHCN8V8y+FUJhqdB9MjKMEbNK7CfNmdnJUJaE/5A4="
         }
       ]
     },
     {
-      "Route": "SEJA_WepApp.tyzou0cwte.styles.css.gz",
-      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-tyzou0cwte.gz",
+      "Route": "SEJA_WepApp.yfjnt33hxw.styles.css.gz",
+      "AssetFile": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21839,7 +22519,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "617"
+          "Value": "662"
         },
         {
           "Name": "Content-Type",
@@ -21847,11 +22527,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk=\""
+          "Value": "\"6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 03:21:20 GMT"
+          "Value": "Sat, 26 Jul 2025 20:11:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21869,7 +22549,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tyzou0cwte"
+          "Value": "yfjnt33hxw"
         },
         {
           "Name": "label",
@@ -21877,7 +22557,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ikbkLQZzrqDOqgqB99alHKhzNDk93LddEIHhLX2Lfhk="
+          "Value": "sha256-6R+aaAENVEzWSlFLgM0OCiDPNIlPpPfNfDiBxV6VdaE="
         }
       ]
     }

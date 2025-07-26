@@ -1,9 +1,6 @@
 ﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-* {
-  background-color: #F2D338 !important;
-}
 
 #titulo {
   font-size: 100px;
@@ -23,6 +20,10 @@ a {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+.navbar {
+  background-color: #F2D338 !important;
 }
 
 .navbar-nav {
@@ -60,4 +61,14 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.container {
+    max-width: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+  background-color: #F2D338;
 }
