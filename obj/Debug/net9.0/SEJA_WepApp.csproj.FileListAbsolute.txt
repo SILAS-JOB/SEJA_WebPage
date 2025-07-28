@@ -230,3 +230,5 @@
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
