@@ -17,7 +17,6 @@
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/bundle/SEJA_WepApp.styles.css
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css
-/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/eo76ekb7tv-lugek5hnai.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/ue2apdxh6h-61n19gt1b8.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/kdck5f4qzn-fr7q2aak1r.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/b5w79zx6pk-bqjiyaj88i.gz
@@ -227,8 +226,10 @@
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/SEJA_WepApp.csproj.AssemblyReference.cache
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/SEJA_Wep.0BA9A01E.Up2Date
-/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-yfjnt33hxw.gz
-/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-yfjnt33hxw.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz
 /home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
 /home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/eo76ekb7tv-4o82a06ppz.gz
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-hpy85j0645.gz
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-hpy85j0645.gz
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/pywlbd7wcg-zi42mcc6vb.gz

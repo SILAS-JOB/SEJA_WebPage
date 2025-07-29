@@ -13,17 +13,17 @@ a.navbar-brand[b-gbr63wa02j] {
 }
 
 a[b-gbr63wa02j] {
-  color: #0077cc;
+  color: #317186;
 }
 
 .btn-primary[b-gbr63wa02j] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: #F7f7f7;
+  background-color: #317186;
+  border-color: #317186;
 }
 
 .navbar[b-gbr63wa02j] {
-  background-color: #F2D338 !important;
+  background-color: #F9DF4B !important;
 }
 
 .navbar-nav[b-gbr63wa02j] {
@@ -34,16 +34,16 @@ a[b-gbr63wa02j] {
 }
 
 .nav-pills .nav-link.active[b-gbr63wa02j], .nav-pills .show > .nav-link[b-gbr63wa02j] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: #F7f7f7;
+  background-color: #317186;
+  border-color: #317186;
 }
 
 .border-top[b-gbr63wa02j] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #F7f7f7;
 }
 .border-bottom[b-gbr63wa02j] {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #F7f7f7;
 }
 
 .box-shadow[b-gbr63wa02j] {
@@ -70,5 +70,5 @@ button.accept-policy[b-gbr63wa02j] {
 }
 
 footer[b-gbr63wa02j] {
-  background-color: #F2D338;
+  background-color: #F9DF4B;
 }
