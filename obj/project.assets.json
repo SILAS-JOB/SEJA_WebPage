@@ -4780,11 +4780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/silas/Projetos/SEJA_WepApp/SEJA_WepApp.csproj",
+      "projectUniqueName": "/home/silas/Projetos/Seja_WebApp/SEJA_WepApp.csproj",
       "projectName": "SEJA_WepApp",
-      "projectPath": "/home/silas/Projetos/SEJA_WepApp/SEJA_WepApp.csproj",
+      "projectPath": "/home/silas/Projetos/Seja_WebApp/SEJA_WepApp.csproj",
       "packagesPath": "/home/silas/.nuget/packages/",
-      "outputPath": "/home/silas/Projetos/SEJA_WepApp/obj/",
+      "outputPath": "/home/silas/Projetos/Seja_WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/silas/.nuget/NuGet/NuGet.Config"
@@ -4793,7 +4793,6 @@
         "net9.0"
       ],
       "sources": {
-        "/usr/lib64/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4812,7 +4811,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -4862,7 +4861,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

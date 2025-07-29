@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RtzdGJTx2ZY=",
+  "dgSpecHash": "YKJCfHa4akE=",
   "success": true,
-  "projectFilePath": "/home/silas/Projetos/SEJA_WepApp/SEJA_WepApp.csproj",
+  "projectFilePath": "/home/silas/Projetos/Seja_WebApp/SEJA_WepApp.csproj",
   "expectedPackageFiles": [
     "/home/silas/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/silas/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
