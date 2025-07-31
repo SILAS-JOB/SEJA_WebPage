@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Autenticação externa (Google, Facebook, etc.)
 builder.Services.AddAuthentication()
+
     .AddGoogle(options =>
     {
         options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
@@ -18,6 +19,11 @@ builder.Services.AddAuthentication()
         options.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
     });
 
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -25,7 +31,7 @@ var app = builder.Build();
 // Pipeline de requisição
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+    app.UseExceptionHandler("/Home/Error"); 
     app.UseHsts();
 }
 
@@ -33,7 +39,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseCookiePolicy();
 app.UseAuthentication(); // <- Aqui
 app.UseAuthorization();
 
