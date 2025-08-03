@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEJA_WepApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3396c52c256f2e57430ec9375481cbaf344c45b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5b75ea89abf3bbe3fd17696de2950748286dee7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEJA_WepApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEJA_WepApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Authentication.Facebook;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configuração de autenticação externa
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
