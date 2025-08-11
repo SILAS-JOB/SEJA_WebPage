@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css",
-      "PackagePath": "staticwebassets/SEJA_WepApp.hpy85j0645.bundle.scp.css"
+      "PackagePath": "staticwebassets/SEJA_WepApp.kqd0ef8tx8.bundle.scp.css"
     },
     {
       "Id": "/home/silas/Projetos/SEJA_WepApp/wwwroot/css/index.css",
@@ -17,20 +17,12 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/file.svg",
-      "PackagePath": "staticwebassets/img/file.svg"
-    },
-    {
       "Id": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/login.svg",
       "PackagePath": "staticwebassets/img/login.svg"
     },
     {
       "Id": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/logoseja.png",
       "PackagePath": "staticwebassets/img/logoseja.png"
-    },
-    {
-      "Id": "/home/silas/Projetos/SEJA_WepApp/wwwroot/img/sejalogotitulo.png",
-      "PackagePath": "staticwebassets/img/sejalogotitulo.png"
     },
     {
       "Id": "/home/silas/Projetos/SEJA_WepApp/wwwroot/js/site.js",

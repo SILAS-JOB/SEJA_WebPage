@@ -17,7 +17,6 @@
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/bundle/SEJA_WepApp.styles.css
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/scopedcss/projectbundle/SEJA_WepApp.bundle.scp.css
-/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/ue2apdxh6h-61n19gt1b8.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/kdck5f4qzn-fr7q2aak1r.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/b5w79zx6pk-bqjiyaj88i.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/i70thobg0c-c2jlpeoesf.gz
@@ -230,6 +229,7 @@
 /home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
 /home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/eo76ekb7tv-4o82a06ppz.gz
+<<<<<<< HEAD
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-hpy85j0645.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-hpy85j0645.gz
 /home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/pywlbd7wcg-zi42mcc6vb.gz
@@ -453,8 +453,6 @@
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/5af3jqb7r5-muycvpuwrr.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/t1kqvc6gu9-87fc7y1x7t.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/f8umbln1jy-jfsiqqwiad.gz
-/home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/0noljkcupp-hpy85j0645.gz
-/home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/1zy3uqovqy-hpy85j0645.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/staticwebassets.build.json
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/staticwebassets.build.json.cache
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/staticwebassets.development.json
@@ -466,3 +464,36 @@
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/SEJA_WepApp.genruntimeconfig.cache
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/ref/SEJA_WepApp.dll
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/ue2apdxh6h-s96q3cefe3.gz
+=======
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/ue2apdxh6h-zx5fs6zzbb.gz
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/0noljkcupp-kqd0ef8tx8.gz
+/home/silas/Projetos/SEJA_WepApp/obj/Debug/net9.0/compressed/1zy3uqovqy-kqd0ef8tx8.gz
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/EntityFramework.SqlServer.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/EntityFramework.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.Extensions.Identity.Core.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/Microsoft.Extensions.Identity.Stores.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/System.Data.SqlClient.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/silas/Projetos/SEJA_WepApp/bin/Debug/net9.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+>>>>>>> origin/main
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/EntityFramework.SqlServer.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/EntityFramework.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/Microsoft.Extensions.Identity.Core.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/Microsoft.Extensions.Identity.Stores.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/System.Data.SqlClient.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/0noljkcupp-kqd0ef8tx8.gz
+/home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/1zy3uqovqy-kqd0ef8tx8.gz

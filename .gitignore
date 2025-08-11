@@ -1,0 +1,7 @@
+#zed configs da máquina local
+
+.zed/
+
+#build e cache
+.bin/
+.obj/

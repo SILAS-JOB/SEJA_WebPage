@@ -22,8 +22,10 @@ a {
   border-color: #317186;
 }
 
+
 .navbar {
   background-color: #F9DF4B !important;
+  border-bottom: 1px solid #333333;
 }
 
 .navbar-nav {

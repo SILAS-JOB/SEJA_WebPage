@@ -28,7 +28,11 @@ public class HomeController : Controller
     {
         return View();
     }
-    
+
+    public IActionResult Reserva()
+    {
+        return View();
+    }
     public IActionResult Contato()
     {
         return View();
