@@ -5,3 +5,8 @@
 #build e cache
 .bin/
 .obj/
+
+
+#json
+appsettings.json
+appsettings.Development.json

@@ -393,7 +393,6 @@
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/lg5bx16d8r-ggu9x5fmo9.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/eo76ekb7tv-4o82a06ppz.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/6vqd11jkja-vw1slop4mf.gz
-/home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/kdck5f4qzn-fr7q2aak1r.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/b5w79zx6pk-bqjiyaj88i.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/i70thobg0c-c2jlpeoesf.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/nslrlzub1v-erw9l3u2r3.gz
@@ -497,3 +496,4 @@
 /home/silas/Projetos/Seja_WebApp/bin/Debug/net9.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/0noljkcupp-kqd0ef8tx8.gz
 /home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/1zy3uqovqy-kqd0ef8tx8.gz
+/home/silas/Projetos/Seja_WebApp/obj/Debug/net9.0/compressed/kdck5f4qzn-5ipweew5fc.gz
