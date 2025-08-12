@@ -3,8 +3,8 @@
 .zed/
 
 #build e cache
-.bin/
-.obj/
+bin/
+obj/
 
 
 #json
