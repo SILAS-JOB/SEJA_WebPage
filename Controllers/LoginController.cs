@@ -33,6 +33,7 @@ namespace SEJA_WepApp.Controllers
                 claim.Value
             });
             return Json(claims);
+
         }
 
     }
