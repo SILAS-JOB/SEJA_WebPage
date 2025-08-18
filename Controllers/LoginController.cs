@@ -32,8 +32,14 @@ namespace SEJA_WepApp.Controllers
                 claim.Type,
                 claim.Value
             });
-            return Json(claims);
+            //return Json(claims);
+            return RedirectToAction("Index", "Home", new { area = "" });
+        }
 
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return View();
         }
 
     }

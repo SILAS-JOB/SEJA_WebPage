@@ -1,6 +1,20 @@
 ﻿@section Estilos {
     <link rel="stylesheet" href="~/css/index.css" />
 }
+@section Scripts {
+  <script src="~/js/web.js" ></script>
+}
+
+<br/>
+@if (Context.User.Identity.IsAuthenticated) 
+{
+
+<p id="loginMessage" class="bs-sucess">Seja bem vindo @User.Identity.IsAuthenticated</p>
+} else 
+{
+  <p id="loginMessage" class="bs-danger">Usuário não pode ser autenticado, tente novamente</p>
+}
+
 
 <div class="justify-content-start">
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
