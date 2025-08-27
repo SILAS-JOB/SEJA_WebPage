@@ -40,7 +40,7 @@
                     <ul class="navbar-nav flex-grow-2">
                         @if (Context.User.Identity.IsAuthenticated)
                         {
-                            <h4><u><i><b><a asp-action="Catalog" asp-controller="Account">@User.Identity.Name</a></b></i></u></h4>
+                            <h4><u><i><b><a asp-action="Profile" asp-controller="Account">@User.Identity.Name</a></b></i></u></h4>
                         } else 
                         {
                         <li>
