@@ -38,12 +38,18 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav flex-grow-2">
+                        @if (Context.User.Identity.IsAuthenticated)
+                        {
+                            <h4><u><i><b><a asp-action="Catalog" asp-controller="Account">@User.Identity.Name</a></b></i></u></h4>
+                        } else 
+                        {
                         <li>
                             <a class="nav-link text-dark" asp-asp-area="" asp-controller="Home" asp-action="Login">Faça login ou<br> cadastro</a>
                         </li>
                         <li>
                             <a class="nav-link text-dark" asp-asp-area="" asp-controller="Home" asp-action="Login"><img style="width: 50px; height: 50px"src="~/img/login.svg"></a>
                         </li>
+                        }
                     </ul>
                 </div>
             </div>

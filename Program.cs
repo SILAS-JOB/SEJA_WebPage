@@ -15,7 +15,7 @@ builder.Services.AddAuthentication(options =>
 .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
 {
     options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
 });
 
 // builder.Services.AddAuthentication()
