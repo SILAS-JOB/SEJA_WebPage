@@ -8,12 +8,14 @@
 <br/>
 @if (Context.User.Identity.IsAuthenticated) 
 {
-
-<p id="loginMessage" role="alert" class="alert alert-sucess text-center mt-5 pt-5"><b><u><i>Seja bem vindo @User.Identity.Name</u></b></p> //por algum motivo o </i> tava quebrando a razor
+  <div id="loginMessage" class="alert alert-success text-center pt-3 mt-5" role="alert">
+        <h5><i><b><u>Seja bem-vindo, usuário autenticado ✅</u></b></i></h5>
+  </div>
 } else 
 {
-  <p id="loginMessage" class="bs-danger">Usuário não pode ser autenticado, tente novamente</p>
-}
+<div id="loginMessage"class="alert alert-danger text-center pt-3 mt-5" role="alert">
+        <h5><b><i><u>Usuário não pode ser autenticado, tente novamente ❌</u></i></b></h5>
+    </div>}
 
 
 <div class="justify-content-start">
