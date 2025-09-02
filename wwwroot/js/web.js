@@ -5,7 +5,7 @@ setTimeout(() => {
         msg.style.opacity = "0";
         setTimeout(() => msg.remove(), 1000);
     }
-}, 5000);
+}, 2000);
 
 document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll(".fade-in");
