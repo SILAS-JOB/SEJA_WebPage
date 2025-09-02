@@ -17,24 +17,16 @@ builder.Services.AddAuthentication(options =>
 {
     options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
     options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+})
 
-    options.Scope.Add(CalendarService.Scope.CalendarEvents);
+// .AddGoogle(options =>
+// {
+//    options.Scope.Add(CalendarService.Scope.CalendarEvents);
 
-    options.AccessType = "offline";
-    options.SaveTokens = true;
-});
-
-// builder.Services.AddAuthentication()
-//     .AddGoogle(options =>
-//     {
-//         options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
-//         options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
-//     })
-//     .AddFacebook(options =>
-//     {
-//       options.AppId = builder.Configuration["Authentication:Facebook:AppId"];
-//       options.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
-//     });
+//     options.AccessType = "offline";
+//     options.SaveTokens = true; 
+// });
+;
 
 builder.Services.AddControllersWithViews();
 
@@ -52,7 +44,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); // <- Aqui
+app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.MapControllerRoute(
