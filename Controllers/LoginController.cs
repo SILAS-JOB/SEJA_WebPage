@@ -25,6 +25,17 @@ namespace SEJA_WepApp.Controllers
             var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.
                 AuthenticationScheme);
 
+            ViewData["LoginTentado"] = "true";
+
+            if (result?.Principal != null)
+            {
+                ViewData["LoginStatus"] = "sucess";
+            }
+            else
+            {
+                ViewData["LoginStatus"] = "error";
+            }
+
             var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
             {
                 claim.Issuer,
@@ -39,7 +50,7 @@ namespace SEJA_WepApp.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return View();
+            return RedirectToAction("Index", "Home", new { area = ""});
         }
 
     }

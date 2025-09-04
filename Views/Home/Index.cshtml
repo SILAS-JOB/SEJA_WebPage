@@ -6,17 +6,24 @@
 }
 
 <br/>
-@if (Context.User.Identity.IsAuthenticated) 
-{
-  <div id="loginMessage" class="alert alert-success text-center pt-3 mt-5" role="alert">
-        <h5><i><b><u>Seja bem-vindo, usuário autenticado ✅</u></b></i></h5>
-  </div>
-} else 
-{
-<div id="loginMessage"class="alert alert-danger text-center pt-3 mt-5" role="alert">
-        <h5><b><i><u>Usuário não pode ser autenticado, tente novamente ❌</u></i></b></h5>
-    </div>}
 
+@{
+  var LoginTentado = ViewData["LoginTentado"] as bool? ?? false;
+  var LoginStatus = ViewData["LoginStatus"] as string;
+}
+@if(LoginTentado)
+{
+  @if (Context.User.Identity.IsAuthenticated) 
+  {
+    <div id="loginMessage" class="alert alert-success text-center pt-3 mt-5" role="alert">
+          <h5><i><b><u>Seja bem-vindo, usuário autenticado ✅</u></b></i></h5>
+    </div>
+  } else 
+  {
+  <div id="loginMessage"class="alert alert-danger text-center pt-3 mt-5" role="alert">
+          <h5><b><i><u>Usuário não pode ser autenticado, tente novamente ❌</u></i></b></h5>
+      </div>}
+}
 
 <div class="justify-content-start">
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
