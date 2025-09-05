@@ -17,16 +17,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
     options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-})
-
-// .AddGoogle(options =>
-// {
-//    options.Scope.Add(CalendarService.Scope.CalendarEvents);
-
-//     options.AccessType = "offline";
-//     options.SaveTokens = true; 
-// });
-;
+});
 
 builder.Services.AddControllersWithViews();
 
