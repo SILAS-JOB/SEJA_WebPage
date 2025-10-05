@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
-
 var builder = WebApplication.CreateBuilder(args);
-
+//new branch
 //Google OAuth
 
 builder.Services.AddAuthentication(options =>
