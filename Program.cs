@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SEJA_WepApp.Data;
 using Microsoft.Extensions.Options;
-
+//A
 
 var builder = WebApplication.CreateBuilder(args);
 //Google OAuth
