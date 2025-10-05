@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Google.Apis.Calendar.v3;
 
 var builder = WebApplication.CreateBuilder(args);
 
