@@ -16,10 +16,10 @@
                 <br>
                 <div class="social-login">
                 <p>Ou entre com Google</p>
-                <a asp-controller="Login" asp-action="Login" class="google-btn">
+                    <a href="@Url.Action("SignInWithGoogle", "Account", new { returnUrl = ViewData["ReturnUrl"] })" class="google-btn" title="Log in using your Google account">
                     <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo">
                     Sign in with Google
-                </a>
+                    </a>
                 </div>
                 <br>
                 <label for="nome">Nome:</label>
