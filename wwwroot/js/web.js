@@ -1,3 +1,5 @@
+// Cria animação de login
+
 setTimeout(() => {
     const msg = document.getElementById("loginMessage");
     if (msg) {
@@ -6,6 +8,8 @@ setTimeout(() => {
         setTimeout(() => msg.remove(), 1000);
     }
 }, 2000);
+
+// Animação de fade in antiga
 
 document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll(".fade-in");
@@ -21,3 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     elements.forEach(el => observer.observe(el));
 });
+
+
+
+
