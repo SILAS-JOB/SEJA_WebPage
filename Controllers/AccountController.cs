@@ -43,6 +43,11 @@ namespace SEJA_WepApp.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    if (!string.IsNullOrEmpty(model.Name))
+                    {
+                        await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.GivenName, model.Name));
+                    }
+
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToLocal(returnUrl);
                 }
@@ -110,19 +115,31 @@ namespace SEJA_WepApp.Controllers
             }
             if (result.IsLockedOut)
             {
-                // Tratar conta bloqueada
                 return View("Lockout");
             }
             else
             {
                 ViewData["ReturnUrl"] = returnUrl;
                 ViewData["LoginProvider"] = info.LoginProvider;
+
                 var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+                var firstName = info.Principal.FindFirstValue(ClaimTypes.GivenName);
+                var lastName = info.Principal.FindFirstValue(ClaimTypes.Surname);
 
                 var user = new IdentityUser { UserName = email, Email = email };
                 var createResult = await _userManager.CreateAsync(user);
+
                 if (createResult.Succeeded)
                 {
+                    if (firstName != null)
+                    {
+                        await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.GivenName, firstName));
+                    }
+                    if (lastName != null)
+                    {
+                        await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Surname, lastName));
+                    }
+
                     createResult = await _userManager.AddLoginAsync(user, info);
                     if (createResult.Succeeded)
                     {
