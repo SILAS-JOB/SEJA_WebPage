@@ -152,4 +152,6 @@ h1::after {
 
 footer {
   background: linear-gradient(90deg, #F9DF4B, #3171B6);
+  height: 150px;
+  margin-top: 100px;
 }

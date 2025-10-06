@@ -1,0 +1,221 @@
+/* Container principal da página */
+.schedule-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do cabeçalho da página */
+.page-header {
+    margin-bottom: 50px;
+}
+
+.page-header .icon-header {
+    font-size: 3rem;
+    color: #34495e; /* Cor escura para o ícone principal */
+    margin-bottom: 10px;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block; /* Para o sublinhado */
+}
+
+.page-header h1::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 4px;
+    background: linear-gradient(to right, #FFC107, #28A745); /* Gradiente para o sublinhado */
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Grid para as opções de aula */
+.options-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem a linha em telas menores */
+    margin-bottom: 60px;
+}
+
+/* Estilo base para cada card de opção */
+.option-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Sombra mais suave e proeminente */
+    text-align: center;
+    flex: 1; /* Faz com que os cards tentem ocupar espaço igual */
+    min-width: 280px; /* Largura mínima para os cards */
+    max-width: 350px; /* Largura máxima para os cards */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaça o conteúdo */
+}
+
+.option-card:hover {
+    transform: translateY(-10px); /* Efeito de levantar no hover */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* Sombra maior no hover */
+}
+
+/* Wrapper para os ícones */
+.icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+    font-size: 2.5rem;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Cores específicas para cada tipo de aula */
+.option-card.individual .icon-wrapper {
+    background-color: #3498db; /* Azul */
+}
+.option-card.group .icon-wrapper {
+    background-color: #f1c40f; /* Amarelo */
+}
+.option-card.online .icon-wrapper {
+    background-color: #e74c3c; /* Vermelho */
+}
+
+
+.option-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.option-card p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    flex-grow: 1; /* Faz o parágrafo ocupar o espaço restante */
+}
+
+/* Estilo para os botões "Agendar Aula" dentro dos cards */
+.btn-schedule {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: auto; /* Empurra o botão para a base do card */
+}
+
+.option-card.individual .btn-schedule {
+    background-color: #3498db; /* Azul */
+}
+.option-card.group .btn-schedule {
+    background-color: #f1c40f; /* Amarelo */
+}
+.option-card.online .btn-schedule {
+    background-color: #e74c3c; /* Vermelho */
+}
+
+.btn-schedule:hover {
+    transform: translateY(-3px); /* Pequeno efeito de levantar */
+    opacity: 0.9;
+}
+
+/* Seção do botão inferior "Agendar um compromisso" */
+.commitment-section {
+    margin-top: 40px;
+}
+
+.btn-commitment {
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    /* Usando o gradiente da sua barra inferior */
+    background: linear-gradient(90deg, #FFC107, #28A745, #17A2B8);
+    background-size: 200% 100%; /* Para o efeito de hover de "movimento" */
+    transition: background-position 0.6s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-commitment:hover {
+    background-position: -100% 0; /* Move o gradiente no hover */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .options-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .option-card {
+        margin-bottom: 25px;
+        width: 90%; /* Ocupa mais largura em telas pequenas */
+        max-width: 400px; /* Limite para não ficar muito largo */
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .btn-commitment {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .option-card {
+        padding: 25px;
+    }
+
+    .icon-wrapper {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+
+    .option-card h3 {
+        font-size: 1.6rem;
+    }
+
+    .option-card p {
+        font-size: 0.9rem;
+    }
+
+    .btn-schedule {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+}

@@ -1,0 +1,175 @@
+/* Container principal da página */
+.booking-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do cabeçalho da página (reaproveitado do design anterior) */
+.page-header {
+    margin-bottom: 50px;
+}
+
+.page-header .icon-header {
+    font-size: 3rem;
+    color: #34495e; /* Cor escura para o ícone principal */
+    margin-bottom: 10px;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.page-header h1::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 4px;
+    background: linear-gradient(to right, #FFC107, #28A745); /* Gradiente */
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Grid para as opções de reserva */
+.options-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumentei um pouco o espaço por serem menos cards */
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+/* Estilo base para cada card de opção */
+.option-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px; /* Ajustei a largura máxima */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.option-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Wrapper para os ícones */
+.icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+    font-size: 2.5rem;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Cores específicas para cada tipo de espaço */
+.option-card.meeting-room .icon-wrapper {
+    background-color: #03a9f4; /* Ciano mais vibrante */
+}
+.option-card.auditorium .icon-wrapper {
+    background-color: #e91e63; /* Rosa/Vermelho vibrante */
+}
+
+.option-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.option-card p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    flex-grow: 1;
+}
+
+/* Estilo para os botões "Reservar Espaço" */
+.btn-book {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.option-card.meeting-room .btn-book {
+    background-color: #03a9f4; /* Ciano */
+}
+.option-card.auditorium .btn-book {
+    background-color: #e91e63; /* Rosa/Vermelho */
+}
+
+.btn-book:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* Seção do botão inferior "Agendar um compromisso" */
+.commitment-section {
+    margin-top: 40px;
+}
+
+.btn-commitment {
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background: linear-gradient(90deg, #FFC107, #28A745, #17A2B8);
+    background-size: 200% 100%;
+    transition: background-position 0.6s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-commitment:hover {
+    background-position: -100% 0;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .options-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .option-card {
+        width: 90%;
+        max-width: 400px;
+    }
+}

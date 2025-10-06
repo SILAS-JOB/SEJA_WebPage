@@ -1,8 +1,42 @@
 ﻿@{
-    ViewBag.Title = "SEJA - Sistema de Ensino Jorge Augusto";
+    ViewData["Title"] = "Contatos";
 }
 
-<br />
-<body class="pt-5 mt-5">
-    <h2><b>Contatos</b></h2>
-</body>
+@section Estilos {
+    <link rel="stylesheet" href="~/css/contatos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+}
+
+<div class="contact-container">
+    <h1>Contatos</h1>
+    <div class="contact-card">
+        <div class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p>Tem alguma dúvida ou sugestão? Entre em contato conosco por um dos canais abaixo ou nos envie uma mensagem!</p>
+            
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Seu Endereço, 123, Bairro, Cidade - UF</span>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:seuemail@empresa.com">seuemail@empresa.com</a>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+5511999999999">(11) 99999-9999</a>
+            </div>
+             <div class="info-item">
+                <i class="fa-brands fa-whatsapp"></i>
+                <a href="https://wa.me/" target="_blank">Atendimento via WhatsApp</a>
+            </div>
+
+            <div class="social-media">
+                <h3>Siga-nos</h3>
+                <a href="#" aria-label="Link para o Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Link para o Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Link para o LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
