@@ -167,7 +167,7 @@ namespace SEJA_WepApp.Controllers
         {
             var viewmodel = new AccountModelView
             {
-                Name = User.Identity.Name,
+                Name = User.FindFirstValue(ClaimTypes.GivenName) ?? User.Identity.Name,
                 Email = User.FindFirstValue(ClaimTypes.Email),
                 GivenName = User.FindFirstValue(ClaimTypes.GivenName),
                 SurName = User.FindFirstValue(ClaimTypes.Surname),
