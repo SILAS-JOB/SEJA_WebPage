@@ -17,18 +17,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddAuthentication(options =>
-    {
-        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+// builder.Services.AddAuthentication(options =>
+//     {
+//         options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+//         options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
 
-    })
-.AddCookie()
-.AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
-{
-    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-});
+//     })
+// .AddCookie()
+// .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+// {
+//     options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+//     options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+// });
 
 builder.Services.AddControllersWithViews();
 
