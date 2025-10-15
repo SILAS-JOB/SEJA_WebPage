@@ -1,4 +1,4 @@
-namespace SEJA_WepApp.Models;
+namespace SEJA_WebApp.Models;
 
 public class ErrorViewModel
 {

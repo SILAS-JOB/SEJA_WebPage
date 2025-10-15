@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SEJA_WepApp.Data;
+using SEJA_WebApp.Data;
 
 #nullable disable
 
-namespace SEJA_WepApp.Migrations
+namespace SEJA_WebApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20251006123829_InitialCreate")]

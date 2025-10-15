@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SEJA_WepApp.Models;
+using SEJA_WebApp.Models;
 
-namespace SEJA_WepApp.Controllers;
+namespace SEJA_WebApp.Controllers;
 
 public class HomeController : Controller
 {

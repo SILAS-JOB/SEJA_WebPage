@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 
 
@@ -6,11 +7,12 @@ namespace SEJA_WebApp.Models
 {
     public class AccountModelView
     {
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string Email { get; set; }
-        public string GivenName { get; set; }
-        public string SurName { get; set; }
-        public string ProfilePictureUrl { get; set; }
-        public List<Claim> AllClaims { get; set; }
+        [Required]
+        public string? ProfilePictureUrl { get; set; }
+        public List<Claim>? AllClaims { get; set; }
     }
 }

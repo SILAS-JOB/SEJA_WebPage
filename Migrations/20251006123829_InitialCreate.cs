@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace SEJA_WepApp.Migrations
+namespace SEJA_WebApp.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

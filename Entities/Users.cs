@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SEJA_WepApp.Entities
+namespace SEJA_WebApp.Entities
 {
     public class Users
     {

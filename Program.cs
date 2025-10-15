@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using SEJA_WepApp.Data;
+using SEJA_WebApp.Data;
 using Microsoft.Extensions.Options;
 //deploy
 
@@ -17,20 +17,24 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// builder.Services.AddAuthentication(options =>
-//     {
-//         options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-//         options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultScheme = IdentityConstants.ApplicationScheme;
+        options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
 
-//     })
-// .AddCookie()
-// .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
-// {
-//     options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-//     options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-// });
+    })
+.AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+{
+    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+});
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+});
 
 var app = builder.Build();
 
@@ -45,6 +49,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseCookiePolicy();
 
 app.UseAuthentication(); 
 app.UseAuthorization();

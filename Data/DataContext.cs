@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SEJA_WepApp.Entities;
+using SEJA_WebApp.Entities;
 
-namespace SEJA_WepApp.Data
+namespace SEJA_WebApp.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
