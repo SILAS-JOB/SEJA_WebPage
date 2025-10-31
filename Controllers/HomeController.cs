@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SEJA_WebApp.Models;
+using Microsoft.Extensions.Logging;
 
 namespace SEJA_WebApp.Controllers;
 

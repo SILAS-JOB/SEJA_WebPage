@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
@@ -28,6 +29,7 @@ builder.Services.AddAuthentication(options =>
     options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
     options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
 });
+
 
 builder.Services.AddControllersWithViews();
 

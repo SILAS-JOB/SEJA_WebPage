@@ -10,23 +10,27 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Mvc.Razor.Compilation;
 using SEJA_WebApp.ViewModel;
+using Microsoft.Extensions.Logging;
 
 namespace SEJA_WebApp.Controllers
 {
+
     public class AccountController : Controller
     {
+        private readonly ILogger<IdentityUser> _logger;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ILogger<IdentityUser> logger)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _logger = logger;
         }
 
         [AllowAnonymous]
         public IActionResult Login(string returnUrl = null)
-        {
+        {   
             ViewData["ReturnUrl"] = returnUrl;
             return View("~/Views/Account/Login.cshtml");
         }
