@@ -9,24 +9,28 @@ using SEJA_WebApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Mvc.Razor.Compilation;
+using SEJA_WebApp.ViewModel;
+using Microsoft.Extensions.Logging;
 
-
-namespace SEJA_WepApp.Controllers
+namespace SEJA_WebApp.Controllers
 {
+
     public class AccountController : Controller
     {
+        private readonly ILogger<IdentityUser> _logger;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ILogger<IdentityUser> logger)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _logger = logger;
         }
 
         [AllowAnonymous]
         public IActionResult Login(string returnUrl = null)
-        {
+        {   
             ViewData["ReturnUrl"] = returnUrl;
             return View("~/Views/Account/Login.cshtml");
         }
@@ -43,12 +47,17 @@ namespace SEJA_WepApp.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    if (!string.IsNullOrEmpty(model.Name))
+                    {
+                        await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Name, model.Name));
+                    }
+
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToLocal(returnUrl);
                 }
                 AddErrors(result);
             }
-            return View("Login", model);
+            return View("Login", new LoginViewModel { Email = model.Email });
         }
 
         [HttpPost]
@@ -73,20 +82,13 @@ namespace SEJA_WepApp.Controllers
             return View(model);
         }
 
+        [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> SignInWithGoogle(string returnUrl = null)
+        public IActionResult SignInWithGoogle(string returnUrl = null)
         {
             var redirectUrl = Url.Action("ExternalLoginCallback", "Account", new { ReturnUrl = returnUrl });
-
-            await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
-                new AuthenticationProperties
-                {
-                    RedirectUri = redirectUrl
-                });
-
-
-
-            return new EmptyResult();
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties(GoogleDefaults.AuthenticationScheme, redirectUrl);
+            return Challenge(properties, GoogleDefaults.AuthenticationScheme);
         }
 
         [HttpGet]
@@ -95,7 +97,8 @@ namespace SEJA_WepApp.Controllers
         {
             if (remoteError != null)
             {
-                return RedirectToAction(nameof(Login));
+                ModelState.AddModelError(string.Empty, $"Error from external provider: {remoteError}");
+                return View(nameof(Login));
             }
             var info = await _signInManager.GetExternalLoginInfoAsync();
             if (info == null)
@@ -110,7 +113,6 @@ namespace SEJA_WepApp.Controllers
             }
             if (result.IsLockedOut)
             {
-                // Tratar conta bloqueada
                 return View("Lockout");
             }
             else
@@ -118,7 +120,6 @@ namespace SEJA_WepApp.Controllers
                 ViewData["ReturnUrl"] = returnUrl;
                 ViewData["LoginProvider"] = info.LoginProvider;
                 var email = info.Principal.FindFirstValue(ClaimTypes.Email);
-
                 var user = new IdentityUser { UserName = email, Email = email };
                 var createResult = await _userManager.CreateAsync(user);
                 if (createResult.Succeeded)
@@ -131,7 +132,7 @@ namespace SEJA_WepApp.Controllers
                     }
                 }
                 AddErrors(createResult);
-                return RedirectToAction(nameof(Login));
+                return View(nameof(Login));
             }
         }
 
@@ -150,10 +151,8 @@ namespace SEJA_WepApp.Controllers
         {
             var viewmodel = new AccountModelView
             {
-                Name = User.Identity.Name,
+                Name = User.FindFirstValue(ClaimTypes.Name) ?? User.Identity.Name,
                 Email = User.FindFirstValue(ClaimTypes.Email),
-                GivenName = User.FindFirstValue(ClaimTypes.GivenName),
-                SurName = User.FindFirstValue(ClaimTypes.Surname),
                 ProfilePictureUrl = User.FindFirstValue("urn:google:picture"),
                 AllClaims = User.Claims.ToList()
             };

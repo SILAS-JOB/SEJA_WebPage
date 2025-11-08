@@ -10,6 +10,7 @@ public class RegisterViewModel
     public string Email { get; set; }
 
     [Phone(ErrorMessage = "Número de telefone inválido")]
+    [RegularExpression("^[0-9]$")]
     public string PhoneNumber { get; set; }
 
     [Required(ErrorMessage = "A senha é obrigatória")]
