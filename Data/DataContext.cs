@@ -1,14 +1,14 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SEJA_WepApp.Entities;
+using SEJA_WebApp.Entities;
 
-namespace SEJA_WepApp.Data
+namespace SEJA_WebApp.Data
 {
-    public class DataContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
-        {
-        }
-
-        public DbSet<Users> Users { get; set; }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+            {
+            }
     }
 }

@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@inject SignInManager<IdentityUser> SignInManager
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,12 +12,12 @@
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/SEJA_WepApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SEJA_WebApp.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="icon" type="image/x-icon" href="~/wwwroot/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@@studio-freight/lenis@1.0.42/+esm"></script>
     <script>
     const lenis = new Lenis();
@@ -46,20 +51,18 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contato">Fale Conosco</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav flex-grow-2">
-                        @if (Context.User.Identity.IsAuthenticated)
+                    @* <ul class="navbar-nav flex-grow-2">
+                        @if (SignInManager.IsSignedIn(User))
                         {
-                            <h4><u><i><b><a asp-action="Profile" asp-controller="Account">@User.Identity.Name</a></b></i></u></h4>
+                            <h4><u><i><b><a asp-action="Profile" asp-controller="Account">@(User.FindFirstValue(ClaimTypes.Name) ?? User.Identity.Name)</a></b></i></u></h4>
                         } else 
                         {
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Faça login ou<br> cadastro</a>
                         <li>
-                            <a class="nav-link text-dark" asp-asp-area="" asp-controller="Home" asp-action="Login">Faça login ou<br> cadastro</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-dark" asp-asp-area="" asp-controller="Home" asp-action="Login"><img style="width: 50px; height: 50px"src="~/img/login.svg"></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login"><img style="width: 50px; height: 50px"src="~/img/login.svg"></a>
                         </li>
                         }
-                    </ul>
+                    </ul> *@
                 </div>
             </div>
         </nav>

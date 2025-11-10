@@ -1,0 +1,63 @@
+@model SEJA_WebApp.ViewModel.LoginViewModel;
+
+@{
+    ViewBag.Title = "Faça Login ou Crie sua Conta";
+}
+
+@section Estilos {
+    <link rel="stylesheet" href="~/css/login.css" />
+}
+
+<body class="pt-5 mt-5">
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col">
+                <h2><b>Cadastre-se</b></h2>
+                <br>
+                <form asp-controller="Account" asp-action="Register" method="post">
+                    <div class="social-login">
+                        <p>Ou entre com Google</p>
+                        <button type="submit" formaction="@Url.Action("SignInWithGoogle", "Account", new { returnUrl = ViewData["ReturnUrl"] })" class="google-btn" title="Log in using your Google account">
+                            <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo">
+                            Sign in with Google
+                        </button>
+                    </div>
+                    <br>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="Name" name="Name" class="form-control" placeholder="Digite seu nome" />
+                    <br />
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="Email" name="Email" class="form-control" placeholder="Digite seu e-mail" />
+                    <br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="PhoneNumber" name="PhoneNumber" class="form-control" placeholder="Digite seu telefone" />
+                    <br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="Password" name="Password" class="form-control" placeholder="Digite sua senha" />
+                    <br>
+                    <label for="confirmarSenha">Confirmar Senha:</label>
+                    <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" placeholder="Confirme sua senha" />
+                    <br>
+                    <button type="submit" class="btn btn-primary mt-2">Cadastrar</button>
+                    <br />
+                </form>
+            </div>
+            <div class="col">
+                <h2><b>Faça Login</b></h2>
+                <br>
+                <form asp-controller="Account" asp-action="Login" method="post">
+                    <label for="loginEmail">E-mail:</label>
+                    <input type="email" id="loginEmail" name="Email" class="form-control" placeholder="Digite seu e-mail" />
+                    <br>
+                    <label for="loginSenha">Senha:</label>
+                    <input type="password" id="loginSenha" name="Password" class="form-control" placeholder="Digite sua senha" />
+                    <br>
+                    <button type="submit" class="btn btn-primary mt-2">Entrar</button>
+                    <br>
+                    <a href="#" class="mt-2">Esqueci minha senha</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
