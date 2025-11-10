@@ -1,97 +1,102 @@
 ﻿@{
-  ViewData["Title"] = "Seja Bem Vindo ! "; 
+ ViewData["Title"] = "Seja Bem Vindo ! "; 
 }
 
 @section Estilos {
-    <link rel="stylesheet" href="~/css/index.css" />
+  <link rel="stylesheet" href="~/css/index.css" />
 }
 @section Scripts {
-  <script src="~/js/web.js" asp-append-version="true"></script>
+ <script src="~/js/web.js" asp-append-version="true"></script>
 }
 
 <br/>
 
 @{
-  var LoginTentado = ViewData["LoginTentado"] as bool? ?? false;
-  var LoginStatus = ViewData["LoginStatus"] as string;
+ var LoginTentado = ViewData["LoginTentado"] as bool? ?? false;
+ var LoginStatus = ViewData["LoginStatus"] as string;
 }
 @if(LoginTentado)
 {
-  @if (Context.User.Identity.IsAuthenticated) 
-  {
-    <div id="loginMessage" class="alert alert-success text-center pt-3 mt-5" role="alert">
-          <h5><i><b><u>Seja bem-vindo, usuário autenticado ✅</u></b></i></h5>
-    </div>
-  } else 
-  {
-  <div id="loginMessage"class="alert alert-danger text-center pt-3 mt-5" role="alert">
-          <h5><b><i><u>Usuário não pode ser autenticado, tente novamente ❌</u></i></b></h5>
-      </div>}
+ @if (Context.User.Identity.IsAuthenticated) 
+ {
+  <div id="loginMessage" class="alert alert-success text-center pt-3 mt-5" role="alert">
+     <h5><i><b><u>Seja bem-vindo, usuário autenticado ✅</u></b></i></h5>
+  </div>
+ } else 
+ {
+ <div id="loginMessage"class="alert alert-danger text-center pt-3 mt-5" role="alert">
+     <h5><b><i><u>Usuário não pode ser autenticado, tente novamente ❌</u></i></b></h5>
+   </div>}
 }
 
 <br />
-<h1 class="text-center mb-5 mt-4 pt-5  fade-in"><b>Sistema de Ensino Jorge Augusto</b></h1>
+<h1 class="text-center mb-5 mt-4 pt-5 fade-in"><b>Sistema de Ensino Jorge Augusto</b></h1>
 <div class="swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="https://static.vecteezy.com/ti/fotos-gratis/p1/9259171-engenheiros-homens-trabalhando-no-local-de-construcao-gerente-e-engenheiro-encontro-e-discussao-sobre-projeto-no-canteiro-de-obra-gratis-foto.JPG" class="d-block w-100"/></div>
-    <div class="swiper-slide"><img src="https://thumbs.dreamstime.com/b/homem-no-trabalho-em-um-canteiro-de-obras-47668338.jpg"class="d-block w-100"/></div>
-  </div>
+ <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://static.vecteezy.com/ti/fotos-gratis/p1/9259171-engenheiros-homens-trabalhando-no-local-de-construcao-gerente-e-engenheiro-encontro-e-discussao-sobre-projeto-no-canteiro-de-obra-gratis-foto.JPG" class="d-block w-100"/></div>
+  <div class="swiper-slide"><img src="https://thumbs.dreamstime.com/b/homem-no-trabalho-em-um-canteiro-de-obras-47668338.jpg"class="d-block w-100"/></div>
+ </div>
 </div>
 <script>
-  const swiper = new Swiper('.swiper', { loop: true, autoplay: true });
+ const swiper = new Swiper('.swiper', { loop: true, autoplay: true });
 </script>
-  <div class="container">
-    <div class="row">
-      <div class="col text-center pt-5">
-        <br>
-        <h3 class="fade-in"><i><b>Quem somos ?</b></i></h3>
-        <br>
-        <p class="text-center fade-in">
-            No SEJA, acreditamos que cada aluno é único — e o ensino também deve ser. Nossa missão é oferecer um ambiente de aprendizagem personalizado, inclusivo e acolhedor, onde as habilidades e necessidades individuais são reconhecidas e respeitadas.
-            Mais do que reforço escolar, somos parceiros no desenvolvimento acadêmico e pessoal de cada estudante, trabalhando lado a lado com famílias e escolas.
-        </p>
-        <hr>
-      </div>
-    </div>
-    <div class="row mt-4 pt-5 mt-5">
-      <div class="col-4">
-        <img src="https://st.depositphotos.com/1010613/2021/i/450/depositphotos_20213881-stock-photo-construction-worker-presenting-empty-banner.jpg" class="img-fluid">
-      </div>
-      <div class="col-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem quisquam est nesciunt adipisci? Ipsa quo totam, sint cupiditate aut dolore dolorum aperiam commodi quae temporibus. Vero dolore possimus provident!
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, incidunt! Tempore placeat ex repellendus nam quidem nobis laboriosam. Iusto vel voluptate facere perferendis nemo voluptatem voluptatum, itaque facilis reiciendis. Asperiores!
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptates nemo odit voluptate. Quos, rem quia corporis sequi possimus maiores ipsum dicta ducimus laborum nisi nobis dolor, omnis consequuntur cum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus architecto similique sapiente voluptas blanditiis ad cupiditate repellat voluptates reprehenderit deleniti vitae porro doloremque, cumque, eligendi facere iure, quibusdam voluptatibus?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur quod dolores sunt architecto minus corporis ducimus...</p>
-      </div>
-    </div>
-    <br/>
-    <hr/>
-    <br/>
-    <div class="row">
-      <div class="col fade-in">
-        <h3 class="fade-in"><i><b>Nossa Missão</b></i></h3>
-        <p class="fade-in">
-          Transformar a experiência de aprendizagem por<br/> meio de um atendimento individualizado, criativo e humano, estimulando o pensamento crítico, <br />a autonomia e o protagonismo do aluno.
-        </p>
-      </div>
-      <div class="col fade-in">
-        <h3 class="fade-in"><i><b>Nossa Visão</b></i></h3>
-        <p class="fade-in">
-          Ser referência nacional em educação <br/>personalizada, reconhecida pela união entre <br/>metodologia criativa, tecnologia e atenção<br/> humana para o desenvolvimento integral<br /> do estudante.
-        </p>
-      </div>
-      <div class="col fade-in">
-        <h3 class="fade-in "><i><b>Nossos Valores</b></i></h3>
-        <ul class="fade-in">
-          <li><b><i>Personalização</i></b> – cada aluno aprende de um jeito, <br/>e respeitamos isso.</li>
-          <li><b><i>Respeito e Diversidade</i></b> – valorizamos pessoas e <br/>suas histórias.</li>
-          <li><b><i>Criatividade</i></b> – soluções inovadoras para tornar o<br/> aprendizado mais dinâmico.</li>
-          <li><b><i>Inteligência</i></b> – decisões pedagógicas fundamentadas<br /> e assertivas.</li>
-          <li><b><i>Parceria</i></b> – união entre aluno, família e escola para <br />resultados consistentes.</li>
-          <li><b><i>Força e Determinação</i></b> – foco na superação de desafios e <br/>na excelência.</li>
+ <div class="container">
+  <div class="row">
+   <div class="col text-center pt-5">
+    <br>
+    <h3 class="fade-in"><i><b>Quem somos ?</b></i></h3>
+    <br>
+    <p class="text-center fade-in">
+      No SEJA, acreditamos que cada aluno é único — e o ensino também deve ser. Nossa missão é oferecer um ambiente de aprendizagem personalizado, inclusivo e acolhedor, onde as habilidades e necessidades individuais são reconhecidas e respeitadas.
+      Mais do que reforço escolar, somos parceiros no desenvolvimento acadêmico e pessoal de cada estudante, trabalhando lado a lado com famílias e escolas.
+    </p>
+    <hr>
+   </div>
+  </div>
+  <div class="row mt-4 pt-5 mt-5">
+   <div class="col-4">
+            <img src="https://st.depositphotos.com/1010613/2021/i/450/depositphotos_20213881-stock-photo-construction-worker-presenting-empty-banner.jpg" class="img-fluid">
+   </div>
+   <div class="col-6">
+        <h4 class="mb-3"><b>Uma Nova Forma de Aprender</b></h4>
+    <p>Nossa plataforma foi desenhada para se adaptar ao seu ritmo. No Sistema de Ensino Jorge Augusto (SEJA), você não é apenas mais um número. Entendemos que o sucesso acadêmico e profissional é construído com suporte contínuo e materiais de alta qualidade.</p>
+        <p>Oferecemos uma jornada de aprendizado completa que inclui:</p>
+        <ul>
+            <li>Aulas ao vivo e gravadas com especialistas do mercado.</li>
+            <li>Projetos práticos para construir um portfólio real.</li>
+            <li>Mentorias individualizadas para guiar sua carreira.</li>
+            <li>Uma comunidade ativa para networking e troca de experiências.</li>
         </ul>
-      </div>
+        <p>Estamos comprometidos com sua evolução, oferecendo as ferramentas e o conhecimento necessários para você se destacar.</p>
+           </div>
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+  <div class="row">
+   <div class="col fade-in">
+    <h3 class="fade-in"><i><b>Nossa Missão</b></i></h3>
+    <p class="fade-in">
+     Transformar a experiência de aprendizagem por<br/> meio de um atendimento individualizado, criativo e humano, estimulando o pensamento crítico, <br />a autonomia e o protagonismo do aluno.
+    </p>
+   </div>
+   <div class="col fade-in">
+    <h3 class="fade-in"><i><b>Nossa Visão</b></i></h3>
+    <p class="fade-in">
+     Ser referência nacional em educação <br/>personalizada, reconhecida pela união entre <br/>metodologia criativa, tecnologia e atenção<br/> humana para o desenvolvimento integral<br /> do estudante.
+    </p>
+   </div>
+   <div class="col fade-in">
+    <h3 class="fade-in "><i><b>Nossos Valores</b></i></h3>
+    <ul class="fade-in">
+     <li><b><i>Personalização</i></b> – cada aluno aprende de um jeito, <br/>e respeitamos isso.</li>
+     <li><b><i>Respeito e Diversidade</i></b> – valorizamos pessoas e <br/>suas histórias.</li>
+     <li><b><i>Criatividade</i></b> – soluções inovadoras para tornar o<br/> aprendizado mais dinâmico.</li>
+     <li><b><i>Inteligência</i></b> – decisões pedagógicas fundamentadas<br /> e assertivas.</li>
+     <li><b><i>Parceria</i></b> – união entre aluno, família e escola para <br />resultados consistentes.</li>
+     <li><b><i>Força e Determinação</i></b> – foco na superação de desafios e <br/>na excelência.</li>
+    </ul>
+   </div>
     </div>
     <br>
     <hr>
@@ -100,32 +105,42 @@
       <div class="col">
       <h3 class="fade-in"><i><b>O que nos torna diferentes</b></i></h3>
 <p class="fade-in">No SEJA, não seguimos um modelo engessado: adaptamos o ensino para que cada aluno alcance o seu melhor.
- Nossa equipe combina experiência, empatia e inovação para criar um caminho de aprendizado sob medida.</p>
+  Nossa equipe combina experiência, empatia e inovação para criar um caminho de aprendizado sob medida.</p>
       </div>
     </div>
   </div>
   <br>
   <div class="section-hero" >
     DIVISÓRIA DA PÁGINA COM COR TEMA
-  </div>
+   </div>
   
   <br>
   <div class="container">
     <div class="row">
       <div class="col">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem quisquam est nesciunt adipisci? Ipsa quo totam, sint cupiditate aut dolore dolorum aperiam commodi quae temporibus. Vero dolore possimus provident!
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, incidunt! Tempore placeat ex repellendus nam quidem nobis laboriosam. Iusto vel voluptate facere perferendis nemo voluptatem voluptatum, itaque facilis reiciendis. Asperiores!
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptates nemo odit voluptate. Quos, rem quia corporis sequi possimus maiores ipsum dicta ducimus laborum nisi nobis dolor, omnis consequuntur cum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus architecto similique sapiente voluptas blanditiis ad cupiditate repellat voluptates reprehenderit deleniti vitae porro doloremque, cumque, eligendi facere iure, quibusdam voluptatibus?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur quod dolores sunt architecto minus corporis ducimus...
-        </p>
-      </div>
-      <div class="col">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem quisquam est nesciunt adipisci? Ipsa quo totam, sint cupiditate aut dolore dolorum aperiam commodi quae temporibus. Vero dolore possimus provident!
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, incidunt! Tempore placeat ex repellendus nam quidem nobis laboriosam. Iusto vel voluptate facere perferendis nemo voluptatem voluptatum, itaque facilis reiciendis. Asperiores!
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptates nemo odit voluptate. Quos, rem quia corporis sequi possimus maiores ipsum dicta ducimus laborum nisi nobis dolor, omnis consequuntur cum?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus architecto similique sapiente voluptas blanditiis ad cupiditate repellat voluptates reprehenderit deleniti vitae porro doloremque, cumque, eligendi facere iure, quibusdam voluptatibus?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur quod dolores sunt architecto minus corporis ducimus...
-        </p>
+        <h3 class="mb-3"><i><b>Nossos Cursos em Destaque</b></i></h3>
+        <p>Explore nossas trilhas de conhecimento desenhadas para o seu sucesso. Cobrimos desde o básico até o avançado, com foco na aplicação prática.</p>
+        <ul class="list-unstyled">
+            <li class="mb-2"><strong><a href="/Cursos/ReforcoEscolar">Reforço Escolar (Fundamental e Médio)</a></strong><br>
+                Matemática, Português, Ciências e mais, com foco na superação de dificuldades e no protagonismo do aluno.
+            </li>
+            <li class="mb-2"><strong><a href="/Cursos/PreparatorioEnem">Preparatório para Vestibulares e ENEM</a></strong><br>
+                Estratégias de prova, revisão intensiva e simulados para garantir a sua aprovação.
+            </li>
+            <li class="mb-2"><strong><a href="/Cursos/DesenvolvimentoProfissional">Cursos Profissionalizantes</a></strong><br>
+                (Ex: Informática, Design, Administração) - Cursos rápidos para inserção imediata no mercado de trabalho.
+            </li>
+        </ul>
+            </div>
+       <div class="col">
+        <h3 class="mb-3"><i><b>Pronto para Começar?</b></i></h3>
+        <p>Acreditamos que a educação de qualidade transforma vidas. No SEJA, você encontra um ambiente seguro, inovador e focado 100% no seu desenvolvimento.</p>
+        <p>Nossos diferenciais que garantem seu sucesso:</p>
+        <ul>
+            <li><strong>Diagnóstico Pedagógico:</strong> Entendemos suas necessidades antes de começar.</li>
+            <li><strong>Flexibilidade Total:</strong> Estude no seu tempo, de onde estiver.</li>
+            <li><strong>Certificação:</strong> Receba certificados reconhecidos ao concluir os módulos.</li>
+            <li><strong>Suporte Contínuo:</strong> Nossa equipe de tutores está sempre disponível para tirar dúvidas.</li>
+        </ul>
+        </div>
     </div>
-  </div>
